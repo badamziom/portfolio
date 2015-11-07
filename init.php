@@ -6,10 +6,10 @@ define("IMAGE_PATH", SITE_PATH . "images/");
 define("MAIL_PATH", "aszulist@o2.pl");
 
 
-$server = 'eu-cdbr-azure-north-d.cloudapp.net';
-$user = 'a.szulist@dawidrza.com';
-$pass = 'undercover123';
-$db = 'portfolio';
+$server = 'mysql.cba.pl';
+$user = 'adam_zadania';
+$pass = 'badamziom123';
+$db = 'adam_zadania_cba_pl';
 
 require_once(APP_PATH."core/core.php");
 $AdamCms = new adamCms($server,$user,$pass,$db);

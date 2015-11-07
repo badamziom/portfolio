@@ -9,7 +9,7 @@ define("MAIL_PATH", "aszulist@o2.pl");
 $server = 'mysql.cba.pl';
 $user = 'adam_zadania';
 $pass = 'badamziom123';
-$db = 'portfolio';
+$db = 'adam_zadania_cba_pl';
 
 require_once(APP_PATH."core/core.php");
 $AdamCms = new adamCms($server,$user,$pass,$db);
