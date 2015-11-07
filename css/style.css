@@ -1,0 +1,164 @@
+body {
+    background: url('../images/background.png') repeat-x #0b092c;
+    color: #5eacf5;
+}
+#page {
+    width: 800px;
+    margin: 0 auto;
+}
+.hide {
+    display: none;
+}
+.alert{
+    list-style-type: none;
+    list-style-image: none;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.success {
+    color: green;
+}
+.warning {
+    color: yellow;
+}
+.error {
+    color: red;
+}
+header {
+    height: 110px;
+    background: url('../images/logo.png') no-repeat;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+#content {
+    width: 800px;
+    float: left;
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px 10px;
+    min-height: 500px;
+    box-shadow: 0 5px 5px 2px rgba(0,0,0,0.5);
+}
+nav {
+    width: 800px;
+}
+nav ul li{
+    display: inline;
+    background: rgba(0,0,0,0.5);
+    width: 120px;
+    height: 30px;
+    margin-right: 10px;
+    float: right;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5);
+}
+nav ul .active{
+    background: rgba(0,0,0,0.3);
+    box-shadow: none;
+}
+nav ul .active a{
+    color: #3893e9;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #1d437a;
+}
+nav ul li a:hover{
+    color: #3893e9;
+}
+article {
+    min-height: 500px;
+    padding: 20px;
+}
+article .informaction{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+article ul{
+    list-style-image: url('../images/punktor2.png');
+}
+footer {
+    float: left;
+    height: 30px;
+    width: 800px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.my_work {
+    min-height: 150px;
+    padding: 5px;
+}
+.my_work img{
+    height: 120px;
+    width: 120px;
+    padding: 5px;
+    background: rgb(255,255,255);
+    margin: 5px;
+    float: left;
+}
+.description {
+    float: left;
+    width: 600px;
+    text-align: justify;
+    height: 110px;
+}
+.description p{
+    margin-left: 20px;
+}
+.link{
+    width: 600px;
+    text-align: center;
+    float: left;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
+.link a:hover{
+    color: #6fadff;
+}
+#contact {
+    color: #89C7FF;
+    text-align: justify;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#contact h2 {
+    font-size: 30px;
+    color: #96A3FF;
+}
+form {
+    margin-left: 50px;
+}
+#data {
+    width: 250px;
+}
+textarea {
+    min-width: 250px;
+    min-height: 100px;
+    max-width: 650px;
+}
+.button {
+    margin: 20px;
+    width: 210px;
+    height: 30px;
+    border-radius: 10px 10px;
+    border: 1px solid white;
+    background: #5eacf5;
+    color: white;
+    font-weight: bold;
+    box-shadow:inset 0 0 15px 5px rgba(0,0,0,0.5);
+}
+.table_informations, .table_informations th, .table_informations tr td {
+    border-collapse: collapse;
+    border: 1px solid #5eacf5;
+}
+.table_informations td {
+    padding: 5px;
+}
