@@ -6,9 +6,9 @@ define("IMAGE_PATH", SITE_PATH . "images/");
 define("MAIL_PATH", "aszulist@o2.pl");
 
 
-$server = 'mysql.cba.pl';
-$user = 'adam_zadania';
-$pass = 'badamziom123';
+$server = 'eu-cdbr-azure-north-d.cloudapp.net';
+$user = 'a.szulist@dawidrza.com';
+$pass = 'undercover123';
 $db = 'portfolio';
 
 require_once(APP_PATH."core/core.php");
